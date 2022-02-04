@@ -4,8 +4,9 @@
 # @Email   : tao13131265081@163.com
 # @File    : onlyTest.py
 # @Software: PyCharm
-cost = [6,5,7,9,2,2]
-cost.sort()
-print(cost)
-r=cost[-1:3]
-print(r)
+list1=[9,3,5,8]
+list2=[0,8,2,3]
+my_dic=zip(list1,list2)
+print(my_dic)
+print(type(my_dic))
+print(dict(my_dic))
